@@ -1,8 +1,8 @@
+import { createRequire } from 'module';const require = createRequire(import.meta.url);
 import {
   BrowserModule,
   DomRendererFactory2
-} from "./chunk-JXUJCQBB.js";
-import "./chunk-X7VIFLP3.js";
+} from "./chunk-ZOP5ODYB.js";
 import {
   AUTO_STYLE,
   AnimationGroupPlayer,
@@ -11,10 +11,10 @@ import {
   sequence,
   style,
   ɵPRE_STYLE
-} from "./chunk-NZMKD2B5.js";
+} from "./chunk-RUFDAOMI.js";
 import {
   DOCUMENT
-} from "./chunk-XDOTOCSQ.js";
+} from "./chunk-UOD4XQIE.js";
 import {
   ANIMATION_MODULE_TYPE,
   Inject,
@@ -29,13 +29,11 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵinject
-} from "./chunk-OMXP4SJ4.js";
-import "./chunk-LBBSG2YE.js";
-import "./chunk-WSXI74FV.js";
+} from "./chunk-CKYV6XIT.js";
 import {
   __objRest,
   __spreadValues
-} from "./chunk-NGNUV6BG.js";
+} from "./chunk-YHCV7DAQ.js";
 
 // node_modules/@angular/animations/fesm2022/browser.mjs
 var LINE_START = "\n - ";
@@ -4166,13 +4164,13 @@ var NoopAnimationsModule = class _NoopAnimationsModule {
 function provideNoopAnimations() {
   return [...BROWSER_NOOP_ANIMATIONS_PROVIDERS];
 }
+
 export {
-  ANIMATION_MODULE_TYPE,
+  InjectableAnimationEngine,
   BrowserAnimationsModule,
-  NoopAnimationsModule,
   provideAnimations,
-  provideNoopAnimations,
-  InjectableAnimationEngine as ɵInjectableAnimationEngine
+  NoopAnimationsModule,
+  provideNoopAnimations
 };
 /*! Bundled license information:
 
@@ -4190,4 +4188,4 @@ export {
    * License: MIT
    *)
 */
-//# sourceMappingURL=@angular_platform-browser_animations.js.map
+//# sourceMappingURL=chunk-QJCJQX7X.js.map

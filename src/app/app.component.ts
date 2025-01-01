@@ -54,7 +54,7 @@ export class AppComponent {
   maxRetries: number = 5;
   retryHistory: RetryAttempt[] = [];
 
-  constructor(private retryService: RetryService) {}
+  constructor(private retryService: RetryService) {} 
 
   onSubmit() {
     this.retryCount = 0;
